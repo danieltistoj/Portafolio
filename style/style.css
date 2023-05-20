@@ -1,4 +1,5 @@
 body{
+    font-family: 'Montserrat', sans-serif;
     background: linear-gradient(94.41deg, #405B75 3.1%, #1F252C 95.93%);
 }
 header{
@@ -25,4 +26,38 @@ nav li a{
     color: white;
     text-decoration: none;
 }
-
+.bienvenida{
+    display: flex;
+    width: 1104px;
+    margin: 0 auto;
+    /*background: orange;*/
+    justify-content: space-between;
+}
+#id-img-bienvenida{
+    width: 487px;
+    height: 374px;
+    margin: 74px 0 74px 0;
+    border-radius: 20px;
+    filter: drop-shadow(20px 20px 20px #0C101B);
+}
+.text-bienvenida{
+    /*background: gray;*/
+    width: 561px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-bienvenida h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.parrafo-bienvenida{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin: 20px 0;
+}
