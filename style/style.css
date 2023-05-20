@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(94.41deg, #405B75 3.1%, #1F252C 95.93%);
+}
+header{
+    background:linear-gradient(90deg, #405B75 -0.8%, #0C101B 100%);
+}
+.caja{
+    display: flex;
+    width: 1104px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-log{
+    width: 277px;
+    height: 210px;
+    margin: 20px 0;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    font-size: 25px;
+    margin: 0 40px 0 0;
+    color: white;
+    text-decoration: none;
+}
+
