@@ -36,7 +36,8 @@ nav li:hover{
     background: black;
     transform: scale(1.2);
     border-radius: 10px;
-    margin-top: 25px
+    margin-top: 25px;
+    box-shadow: 2px 2px 4px 4px #35506B;
 }
 
 /*seccion del cuerpo*/
@@ -54,7 +55,7 @@ main{
 #id-img-bienvenida{
     width:  487px;
     height: 374px;
-    margin: 74px 40px 0 -40px;
+    margin: 74px 40px 0 0;
     border-radius: 20px;
     filter: drop-shadow(20px 20px 20px #0C101B);
 }
