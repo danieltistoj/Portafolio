@@ -1,12 +1,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(94.41deg, #405B75 3.1%, #1F252C 95.93%);
+    /*background: linear-gradient(94.41deg, #405B75 3.1%, #1F252C 95.93%);*/
+    background: black;
 }
 header{
     background:linear-gradient(90deg, #405B75 -0.8%, #0C101B 100%);
-   position: fixed;
+    position: fixed;
     width: 100%;
-   /* z-index: 999;*/
+    z-index: 999;
 }
 /*seccion del header*/
 .caja{
@@ -40,11 +41,13 @@ nav li:hover{
 
 /*seccion del cuerpo*/
 main{
-    padding: 250px;
+    padding: 250px 0 0 0;
+    width: 100%;
 }
 .bienvenida{
     display: flex;
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
     /*background: orange;*/
     justify-content: space-between;
 }
@@ -77,7 +80,7 @@ main{
     margin: 20px 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     main{
         padding: 300px;
     }
@@ -86,9 +89,11 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 30px auto ;
     }
-    .caja nav{
-        margin: 20px auto;
+    
+    nav li{
+        margin: 0 5px 0 0;
     }
     .bienvenida{
         display: block;
@@ -96,7 +101,7 @@ main{
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 540px) {
     main{
         width:auto;
     }
@@ -113,6 +118,12 @@ main{
         width: 277px;
         height: 210px;
         
+    }
+    nav li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
     }
     nav li a{
         font-size: 25px;
