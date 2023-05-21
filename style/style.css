@@ -4,13 +4,14 @@ body{
 }
 header{
     background:linear-gradient(90deg, #405B75 -0.8%, #0C101B 100%);
-    position: fixed;
+   position: fixed;
     width: 100%;
-    z-index: 999;
+   /* z-index: 999;*/
 }
+/*seccion del header*/
 .caja{
     display: flex;
-    width: 1104px;
+    width: 76%;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -22,34 +23,42 @@ header{
 }
 nav li{
     display: inline;
+    margin: 0 40px 0 0;
+    padding: 15px;
 }
 nav li a{
     font-size: 25px;
-    margin: 0 40px 0 0;
     color: white;
     text-decoration: none;
 }
+nav li:hover{
+    background: black;
+    transform: scale(1.2);
+    border-radius: 10px;
+    margin-top: 25px
+}
+
+/*seccion del cuerpo*/
 main{
     padding: 250px;
 }
 .bienvenida{
     display: flex;
-    width: 1104px;
-    margin: 0 auto;
+    width: 100%;
     /*background: orange;*/
     justify-content: space-between;
 }
 #id-img-bienvenida{
-    width: 487px;
+    width:  487px;
     height: 374px;
-    margin: 74px 0 74px 0;
+    margin: 74px 40px 0 -40px;
     border-radius: 20px;
     filter: drop-shadow(20px 20px 20px #0C101B);
 }
 .text-bienvenida{
     /*background: gray;*/
     width: 561px;
-    margin: 0;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,4 +75,49 @@ main{
     text-align: justify;
     color: white;
     margin: 20px 0;
+}
+
+@media screen and (max-width:768px) {
+    main{
+        padding: 300px;
+    }
+    .caja{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja nav{
+        margin: 20px auto;
+    }
+    .bienvenida{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    main{
+        width:auto;
+    }
+    .caja{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja nav{
+        margin: 20px auto;
+    }
+    .img-log{
+        width: 277px;
+        height: 210px;
+        
+    }
+    nav li a{
+        font-size: 25px;
+        margin: 0;
+        color: white;
+        text-decoration: none;
+    }
 }
