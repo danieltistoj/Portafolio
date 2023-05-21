@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    /*background: linear-gradient(94.41deg, #405B75 3.1%, #1F252C 95.93%);*/
-    background: black;
+    background: linear-gradient(94.41deg, #405B75 3.1%, #1F252C 95.93%);
+    /*background: black;*/
 }
 header{
     background:linear-gradient(90deg, #405B75 -0.8%, #0C101B 100%);
@@ -83,7 +83,7 @@ main{
 
 @media screen and (max-width:1024px) {
     main{
-        padding: 300px;
+        padding: 400px 0 0 0;
     }
     .caja{
         display: flex;
@@ -97,15 +97,21 @@ main{
         margin: 0 5px 0 0;
     }
     .bienvenida{
-        display: block;
+        display: grid;
+        place-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #id-img-bienvenida{
+        width:  487px;
+        height: 374px;
+        margin: 0 auto;
+        border-radius: 20px;
+        filter: drop-shadow(20px 20px 20px #0C101B);
     }
 }
 
-
-@media screen and (max-width: 540px) {
-    main{
-        width:auto;
-    }
+@media screen and (max-width:420px){
     .caja{
         display: flex;
         flex-direction: column;
@@ -129,7 +135,8 @@ main{
     nav li a{
         font-size: 25px;
         margin: 0;
-        color: white;
+
         text-decoration: none;
     }
+
 }
