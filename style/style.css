@@ -93,30 +93,6 @@ main{
     color: white;
     margin: 20px 0;
 }
-
-@media screen and (max-width:1024px) {
-    main{
-        padding: 400px 0 0 0;
-    }
-    .caja{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 30px auto ;
-    }
-    
-    nav li{
-        margin: 0 5px 0 0;
-    }
-    .bienvenida{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #id-img-bienvenida{
-        margin: 0;
-    }
-}
 /*footer*/
 footer{
     margin-top: 70px;
@@ -179,6 +155,7 @@ footer{
     
 }
 /*Caja logo*/
+
 .contenedor-logo-footer{
     display: grid;
     place-content: center;
@@ -220,6 +197,40 @@ footer{
     text-decoration: none;
     color: white;
     
+}
+@media screen and (max-width:1024px) {
+    main{
+        padding: 400px 0 0 0;
+    }
+    .caja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto ;
+    }
+    
+    nav li{
+        margin: 0 5px 0 0;
+    }
+    .bienvenida{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #id-img-bienvenida{
+        margin: 0;
+    } 
+    /*foooter*/
+    .caja-footer{
+        width: 80%;
+    }
+    .contenedor-redes-sociales li{ 
+        margin: 0 10px;
+    }
+    .footer-logo{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width:420px){
@@ -296,6 +307,11 @@ footer{
         order: -1;/*cambia el orden del contenedor*/
         width: 100%;
     }
+    .footer-logo{
+        width: 277px;
+        height: 210px;
+    }
+
     .footer-enlaces{
         width: 100%;
     }
