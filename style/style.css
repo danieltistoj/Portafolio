@@ -40,7 +40,19 @@ nav li:hover{
     margin-top: 25px;
     box-shadow: 2px 2px 4px 4px #35506B;
 }
-
+.contenedor-icono-menu{
+    cursor: pointer;
+    display: none;
+}
+.contenedor-icono-menu:hover{
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#id-icono-menu{
+    width: 92px;
+    height: 83px;
+}
 /*seccion del cuerpo*/
 main{
     padding: 250px 0 0 0;
@@ -110,8 +122,6 @@ main{
 @media screen and (max-width:420px){
     main{
         padding: 600px 0 0 0;
-        display: grid;
-        place-content: center;
     }
     .caja{
         display: flex;
@@ -127,6 +137,12 @@ main{
         height: 210px;
         
     }
+    nav ul{
+        display: none;
+    }
+    nav ul.show{
+        display: block;
+    }
     nav li{
         display: flex;
         flex-direction: column;
@@ -138,6 +154,9 @@ main{
         margin: 0;
 
         text-decoration: none;
+    }
+    .contenedor-icono-menu{
+        display: block;
     }
     .bienvenida{
         width: 100%;
