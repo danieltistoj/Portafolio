@@ -129,7 +129,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*background: orange;*/
+    background: orange;
     margin: 0 auto;
 }
 .caja-footer p{
@@ -139,8 +139,7 @@ footer{
 .caja-footer-contenido{
     display: flex;
     justify-content: space-between;
-    
-   /* background: blue;*/
+    background: blue;
     width: 100%;
     padding: 20px 0;
 
@@ -148,7 +147,7 @@ footer{
 .caja-footer-contenido h2{
     margin-top: 40px;
     color: white;
-    /*background: gray;*/
+    background: gray;
     font-size: 20px;
     font-weight: bolder;
 
@@ -158,9 +157,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* background: green;*/
+   background: green;
     width: 33.33%;
-    /*border: #0C101B solid 2px;*/
+    border: #0C101B solid 2px;
 }
 
 .contenedor-redes-sociales{
@@ -168,7 +167,7 @@ footer{
     width: 100%;
     display: grid;
     place-content: center;
-    /*background: gray;*/
+    background: gray;
 }
 .contenedor-redes-sociales li{
     display: inline;  
@@ -183,9 +182,9 @@ footer{
 .contenedor-logo-footer{
     display: grid;
     place-content: center;
-    /*background: green;*/
+    background: green;
     width: 33.33%;
-    /*border: #0C101B solid 2px;*/
+    border: #0C101B solid 2px;
 }
 .footer-logo{
     width: 277px;
@@ -196,20 +195,20 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background: green;*/
+    background: green;
     width: 33.33%;
     /*border: #0C101B solid 2px;*/
 }
 
 .caja-enlaces-directos{
-    /*background: gray;*/
+    background: gray;
     width: 100%;
     display: grid;
     place-content: center;
     margin-top: 20px;
 }
 .caja-enlaces-directos ul{
-    /*background: pink;*/
+    background: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,4 +277,30 @@ footer{
         /*background: gray;*/
         width: 341px;
     }
+    /*foooter*/
+    .caja-footer{
+        width: 100%;
+    }
+    .caja-footer-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-redesSociales{
+        width: 100%;
+    }
+    .footer-redesSociales h2{
+        margin-top: 20px;
+    }
+    .contenedor-logo-footer{
+        order: -1;/*cambia el orden del contenedor*/
+        width: 100%;
+    }
+    .footer-enlaces{
+        width: 100%;
+    }
+    .footer-enlaces h2{
+        margin-top: 20px;
+    }
+
 }
