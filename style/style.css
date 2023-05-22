@@ -101,7 +101,6 @@ main{
     .caja{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin: 30px auto ;
     }
@@ -118,7 +117,34 @@ main{
         margin: 0;
     }
 }
+/*footer*/
+footer{
+    margin-top: 70px;
+    background:linear-gradient(90deg, #405B75 -0.8%, #0C101B 100%);
+    width: 100%;
+}
+.caja-footer{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    margin: 0 auto;
+}
+.caja-footer-contenido{
+    display: flex;
+    justify-content: space-between;
+    
+    background: blue;
+    width: 100%;
+    padding: 20px 0;
 
+}
+.footer-logo{
+    width: 277px;
+    height: 210px;
+}
 @media screen and (max-width:420px){
     main{
         padding: 480px 0 0 0;
