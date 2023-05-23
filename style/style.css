@@ -97,12 +97,65 @@ main{
 /*Carrusel de sobre mi*/
 .seccion-sobremi{
     width: 75%;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
     background: orange;
     border: solid black 1px;
+    box-shadow: 10px 4px 4px #0C101B;
+    border-radius: 20px;
 }
-.seccion-sobremi p{
-    margin: 20px  0 0 0;
+.titulo-seccion{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+}
+.titulo-seccion h2{
+    font-size:45px;
+    color:white;
+    font-weight: bold;
+}
+.contenedor-item{
+    width: 100%;
+    height: 400px;
+    background: green;
+    border: solid black 5px;
+    overflow: hidden;
+}
+.item-carrusel{
+    background: blue;
+    border: solid black 2px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.tarjeta-carrusel{
+    background-color: red;
+    height: 100%;
+}
+.flechas-carrusel{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.flechas-carrusel i{
+    margin: 0 20px;
+}
+#tarjeta-lectura{
+    background: purple;
+}
+#tarjeta-musica{
+    background: olivedrab;
+}
+#tarjeta-cine{
+    background: pink;
 }
 /*footer*/
 footer{
