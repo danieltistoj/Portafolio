@@ -22,8 +22,8 @@ header{
     align-items: center;
 }
 .img-log{
-    width: 277px;
-    height: 210px;
+    width: 177px;
+    height: 110px;
     margin: 20px 0;
 }
 nav li{
@@ -59,7 +59,7 @@ nav li:hover{
 }
 /*seccion del cuerpo*/
 main{
-    padding: 250px 0 0 0;
+    padding: 150px 0 0 0;
     width: 100%;
 }
 .bienvenida{
@@ -99,7 +99,7 @@ main{
 }
 /*Carrusel de sobre mi*/
 #id-sobremi{
-    scroll-margin-top: 250px;
+    scroll-margin-top: 150px;
 }
 .seccion-sobremi{
     width: 75%;
@@ -191,13 +191,12 @@ footer{
 .caja-footer-contenido{
     display: flex;
     justify-content: space-between;
-   /* background: blue;*/
+    background: blue;
     width: 100%;
     padding: 20px 0;
 
 }
 .caja-footer-contenido h2{
-    margin-top: 40px;
     color: white;
    /* background: gray;*/
     font-size: 20px;
@@ -209,9 +208,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background: green;*/
-    width: 33.33%;
-    /*border: #0C101B solid 2px;*/
+    background: green;
+    width: 33.3%;
+    border: #0C101B solid 2px;
 }
 
 .contenedor-redes-sociales{
@@ -235,44 +234,21 @@ footer{
 .contenedor-logo-footer{
     display: grid;
     place-content: center;
-    /*background: green;*/
-    width: 33.33%;
-    /*border: #0C101B solid 2px;*/
+    background: green;
+    width: 33.3%;
+    border: #0C101B solid 2px;
 }
 .footer-logo{
-    width: 277px;
-    height: 210px;
-}
-/*caja enlaces*/
-.footer-enlaces{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   /* background: green;*/
-    width: 33.33%;
-    /*border: #0C101B solid 2px;*/
+    width: 177px;
+    height: 110px;
 }
 
-.caja-enlaces-directos{
-   /* background: gray;*/
-    width: 100%;
-    display: grid;
-    place-content: center;
-    margin-top: 20px;
-}
-.caja-enlaces-directos ul{
-    /*background: pink;*/
+.contenedor-derechos-autor{
+    background: green;
+    border: #0C101B solid 2px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-.caja-enlaces-directos ul li{
-    margin: 10px 0;
-}
-.caja-enlaces-directos ul li a{
-    text-decoration: none;
-    color: white;
-    
+    justify-content: center;
 }
 @media screen and (max-width:1024px) {
     main{
@@ -307,6 +283,9 @@ footer{
     }
     .contenedor-redes-sociales li{ 
         margin: 0 10px;
+    }
+    .contenedor-derechos-autor p{
+        text-align: center;
     }
 }
 
@@ -376,6 +355,7 @@ footer{
     }
     .footer-redesSociales{
         width: 100%;
+        margin-top: 20px;
     }
     .contenedor-logo-footer{
         order: -1;/*cambia el orden del contenedor*/
@@ -385,12 +365,10 @@ footer{
         width: 277px;
         height: 210px;
     }
-
-    .footer-enlaces{
+    .contenedor-derechos-autor{
         width: 100%;
-    }
-    .caja-footer-contenido h2{
-        margin-top: 40px;
-    
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
     }
 }
