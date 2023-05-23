@@ -12,3 +12,14 @@ divMenu.addEventListener("click", function(){
         id_ul.classList.add("show")
     }
 })
+
+const main_slider = document.querySelector(".main-slider")
+const punto = document.querySelectorAll(".punto")//retorna una coleccion o array de etiquetas li o circulos 
+
+punto.forEach((cadaPunto,i)=>{
+    punto[i].addEventListener("click",()=>{
+        let posicion = i
+        let operacion= i * -33.3
+        main_slider.style.transform = `translateX(${operacion}%)`
+    })
+})
