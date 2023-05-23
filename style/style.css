@@ -114,7 +114,9 @@ main{
     box-shadow: 10px 10px 4px #0C101B;
     border-radius: 20px;
     padding-bottom: 10px;
-   /* overflow: hidden;*/
+}
+.contenedor-fantasma{
+    overflow: hidden;
 }
 .titulo-seccion{
     /*background: gray;*/
