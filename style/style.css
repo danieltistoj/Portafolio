@@ -94,6 +94,16 @@ main{
     color: white;
     margin: 20px 0;
 }
+/*Carrusel de sobre mi*/
+.seccion-sobremi{
+    width: 75%;
+    height: 100px;
+    background: orange;
+    border: solid black 1px;
+}
+.seccion-sobremi p{
+    margin: 20px  0 0 0;
+}
 /*footer*/
 footer{
     margin-top: 70px;
@@ -232,9 +242,6 @@ footer{
     }
     .contenedor-redes-sociales li{ 
         margin: 0 10px;
-    }
-    .footer-logo{
-     
     }
 }
 
