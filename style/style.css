@@ -39,6 +39,7 @@ nav li:hover{
     border-radius: 10px;
     margin-top: 25px;
     box-shadow: 2px 2px 4px 4px #35506B;
+    transition: 500ms;
 }
 .contenedor-icono-menu{
     cursor: pointer;
