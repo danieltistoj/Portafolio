@@ -208,14 +208,14 @@ main{
     color: white;
     text-align: justify;
 }
-.con-txt-musica{
+.con-txt-enlaces{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /*background: green;*/
 }
-.con-txt-musica ul{
+.con-txt-enlaces ul{
     margin-top: 20px;
     width: 100%;
     /*background: gold;*/
@@ -223,7 +223,7 @@ main{
     justify-content: space-around;
     height: 20%;
 }
-.con-txt-musica ul li {
+.con-txt-enlaces ul li {
     width: 50%;
     background: #405B75;
     margin: 5px;
@@ -233,26 +233,32 @@ main{
     display: flex;
     align-items: center;
     }
-.con-txt-musica ul li a{
+.con-txt-enlaces ul li a{
     width: 100%;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.con-txt-musica ul li a p{
+.con-txt-enlaces ul li a p{
     font-size: 12px;
     text-align: justify;
     margin: 0 20px;
     width: 60%;
 }
-.con-txt-musica ul li a img{
+.con-txt-enlaces ul li a img{
     width: 20%;
     height: 85%;
     margin-left: 5px;
 }
-.con-txt-musica ul li:hover{
+.con-txt-enlaces ul li:hover{
     background: #539165;
+    transform: scale(1.08);
+    transition: 400ms;
+}
+
+.con-txt-enlaces .enlace-youtube:hover{
+    background: #DF2E38;
     transform: scale(1.08);
     transition: 400ms;
 }
