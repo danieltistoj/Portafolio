@@ -105,13 +105,9 @@ main{
     width: 75%;
     display: flex;
     flex-direction: column;
-    /*
-    align-items: center;
-    justify-content: center;
-    */
     margin: 100px auto;
-    background: linear-gradient(90deg, #405B75 -0.8%, rgba(56, 64, 72, 0) 100%);
-    box-shadow: 10px 10px 4px #0C101B;
+    /*background: linear-gradient(90deg, #405B75 -0.8%, rgba(56, 64, 72, 0) 100%);*/
+    /*box-shadow: 10px 10px 4px #0C101B;*/
     border-radius: 20px;
     padding-bottom: 10px;
 }
@@ -141,8 +137,8 @@ main{
     width: calc(100%/3);
     height: 100%;
     margin: 0 20px;
-    background:  linear-gradient(90deg, #405B75 -0.8%, #0C101B 100%);
-    box-shadow: 5px 0 10px #0C101B,-5px 0 10px #0C101B;
+    background:  #0C101B;
+    box-shadow: 10px 10px 10px black;
     border-radius: 10px;    
 }
 .puntos{
@@ -155,11 +151,15 @@ main{
 .punto{
     width: 2em;
     height: 2em;
-    margin: 1em;
+    margin: 1.5em;
     background: white;
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 10px 10px 10px #0C101B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 .punto:hover{
     transform: scale(1.2);
@@ -168,7 +168,36 @@ main{
 .punto.activo{
     background: orange;
 }
-
+.item-literatura{
+    display: flex;
+}
+.con-img-quijote{
+    width: 50%;
+    height: 100%;
+    /*background: orange;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con-img-quijote img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    filter: drop-shadow(20px 20px 20px #1F252C);
+    mix-blend-mode:  hard-light;
+}
+.con-txt-quijote{
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.con-txt-quijote p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
 /*footer*/
 footer{
     margin-top: 70px;
@@ -191,7 +220,7 @@ footer{
 .caja-footer-contenido{
     display: flex;
     justify-content: space-between;
-    background: blue;
+    /*background: blue;*/
     width: 100%;
     padding: 20px 0;
 
@@ -208,9 +237,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: green;
+    /*background: green;*/
     width: 33.3%;
-    border: #0C101B solid 2px;
+    /*border: #0C101B solid 2px;*/
 }
 
 .contenedor-redes-sociales{
@@ -234,9 +263,9 @@ footer{
 .contenedor-logo-footer{
     display: grid;
     place-content: center;
-    background: green;
+    /*background: green;*/
     width: 33.3%;
-    border: #0C101B solid 2px;
+   /* border: #0C101B solid 2px;*/
 }
 .footer-logo{
     width: 177px;
@@ -244,8 +273,8 @@ footer{
 }
 
 .contenedor-derechos-autor{
-    background: green;
-    border: #0C101B solid 2px;
+    /*background: green;*/
+    /*border: #0C101B solid 2px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -344,6 +373,8 @@ footer{
         /*background: gray;*/
         width: 341px;
     }
+    /*sobre mi*/
+
     /*foooter*/
     .caja-footer{
         width: 100%;
