@@ -233,17 +233,29 @@ main{
     display: flex;
     align-items: center;
     }
-.con-txt-musica ul li p{
+.con-txt-musica ul li a{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con-txt-musica ul li a p{
     font-size: 12px;
     text-align: justify;
     margin: 0 20px;
+    width: 60%;
 }
-.con-txt-musica ul li img{
-    width: 50%;
+.con-txt-musica ul li a img{
+    width: 20%;
     height: 85%;
-    margin-left: 10px;
+    margin-left: 5px;
 }
-
+.con-txt-musica ul li:hover{
+    background: #539165;
+    transform: scale(1.08);
+    transition: 400ms;
+}
 /*footer*/
 footer{
     margin-top: 70px;
