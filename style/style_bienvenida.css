@@ -1,0 +1,67 @@
+/*seccion del cuerpo*/
+main{
+    padding: 150px 0 0 0;
+    width: 100%;
+}
+.bienvenida{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    /*background: orange;*/
+    justify-content: space-between;
+}
+#id-img-bienvenida{
+    width:  487px;
+    height: 374px;
+    margin: 74px 40px 0 0;
+    border-radius: 20px;
+    filter: drop-shadow(20px 20px 20px #0C101B);
+}
+.text-bienvenida{
+    /*background: gray;*/
+    width: 561px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-bienvenida h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.parrafo-bienvenida{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin: 20px 0;
+}
+@media screen and (max-width:1024px) {
+    .bienvenida{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #id-img-bienvenida{
+        margin: 0;
+    } 
+}
+
+@media screen and (max-width:420px){
+    .bienvenida{
+        width: 100%;
+    }
+    #id-img-bienvenida{
+        width: 332px;
+        height: 279px;
+    }
+    .text-bienvenida{
+        /*background: gray;*/
+        width: 90%;
+    }
+    .text-bienvenida h1{
+        text-align: center;
+    }
+}
