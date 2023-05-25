@@ -18,6 +18,7 @@ header{
     display: flex;
     width: 76%;
     margin: 0 auto;
+
     justify-content: space-between;
     align-items: center;
 }
@@ -26,10 +27,14 @@ header{
     height: 110px;
     margin: 20px 0;
 }
+.con-logo-menu{
+    display: flex;
+}
+
 nav li{
     display: inline;
-    margin: 0 40px 0 0;
-    padding: 15px;
+    margin: 0 10px 0 0;
+    padding: 10px;
 }
 nav li a{
     font-size: 25px;
@@ -45,15 +50,12 @@ nav li:hover{
     transition: 500ms;
 }
 .con-logo-menu{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between
 }
 .contenedor-icono-menu{
-    cursor: pointer;
     display: none;
-
 }
 .contenedor-icono-menu:hover{
     background: black;
@@ -359,6 +361,9 @@ footer{
         align-items: center;
         margin: 10px auto ;
     }
+    .con-logo-menu{
+        width: 100%;
+    }
     .img-log{
         margin-bottom: 20px;
     }
@@ -423,6 +428,9 @@ footer{
     }
     .caja nav{
         margin: 0 auto;
+    }
+    .con-logo-menu{
+        width: 100%;
     }
     .img-log{
         width:50%;
