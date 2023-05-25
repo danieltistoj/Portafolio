@@ -44,6 +44,12 @@ nav li:hover{
     box-shadow: 2px 2px 4px 4px #35506B;
     transition: 500ms;
 }
+.con-logo-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
 .contenedor-icono-menu{
     cursor: pointer;
     display: none;
@@ -344,7 +350,7 @@ footer{
 }
 @media screen and (max-width:1024px) {
     main{
-        padding: 400px 0 0 0;
+        padding: 250px 0 0 0;
     }
     .caja{
         display: flex;
@@ -355,12 +361,33 @@ footer{
     .img-log{
         margin-bottom: 20px;
     }
+    .contenedor-icono-menu{
+        display: block;
+    }
     nav{
-        margin-bottom: 20px;
+        margin: 10px auto;
+    }
+    nav ul{
+        display: none;
+
+    }
+    nav ul.show{
+        display: block;
+        margin-top: 25px;
     }
     nav li{
-        margin: 0 5px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
     }
+    nav li a{
+        font-size: 25px;
+        margin: 0;
+
+        text-decoration: none;
+    }
+
     .bienvenida{
         display: flex;
         flex-direction: column;
@@ -393,12 +420,6 @@ footer{
     }
     .caja nav{
         margin: 0 auto;
-    }
-    .con-logo-menu{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between
     }
     .img-log{
         width:50%;
@@ -446,6 +467,7 @@ footer{
         text-align: center;
     }
     /*sobre mi*/
+    
 
     /*foooter*/
     .caja-footer{
@@ -465,8 +487,7 @@ footer{
         width: 100%;
     }
     .footer-logo{
-        width: 277px;
-        height: 210px;
+        width: 90%;
     }
     .contenedor-derechos-autor{
         width: 100%;
