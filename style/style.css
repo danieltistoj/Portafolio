@@ -132,6 +132,7 @@ main{
     height: 400px;
     transition: all .5s ease;
     transform: translateX(0%);
+    margin-bottom: 10px;
 }
 .main-slider .item-slider{
     width: calc(100%/3);
