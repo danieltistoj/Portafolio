@@ -47,16 +47,14 @@ nav li:hover{
 .contenedor-icono-menu{
     cursor: pointer;
     display: none;
+
 }
 .contenedor-icono-menu:hover{
     background: black;
     border-radius: 10px;
     padding: 10px;
 }
-#id-icono-menu{
-    width: 92px;
-    height: 83px;
-}
+
 /*seccion del cuerpo*/
 main{
     padding: 150px 0 0 0;
@@ -385,7 +383,7 @@ footer{
 
 @media screen and (max-width:420px){
     main{
-        padding: 480px 0 0 0;
+        padding: 200px 0 0 0;
     }
     .caja{
         display: flex;
@@ -396,9 +394,15 @@ footer{
     .caja nav{
         margin: 0 auto;
     }
+    .con-logo-menu{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
     .img-log{
-        width: 277px;
-        height: 210px;
+        width:50%;
+        height: 50%;
         
     }
     nav{
@@ -436,7 +440,10 @@ footer{
     }
     .text-bienvenida{
         /*background: gray;*/
-        width: 341px;
+        width: 90%;
+    }
+    .text-bienvenida h1{
+        text-align: center;
     }
     /*sobre mi*/
 
