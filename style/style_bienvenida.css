@@ -3,6 +3,9 @@ main{
     padding: 150px 0 0 0;
     width: 100%;
 }
+#bienvenida{
+    scroll-margin-top: 150px;
+}
 .bienvenida{
     display: flex;
     width: 75%;
