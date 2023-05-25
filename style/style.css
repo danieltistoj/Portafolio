@@ -114,6 +114,7 @@ main{
     /*box-shadow: 10px 10px 4px #0C101B;*/
     border-radius: 20px;
     padding-bottom: 10px;
+    height: auto;
 }
 .contenedor-fantasma{
     overflow: hidden;
@@ -397,12 +398,7 @@ footer{
         margin: 0;
     } 
     /*aficiones o sobre mi*/
-    .seccion-sobremi{
-        width: 100%;
-    }
-    .con-txt-quijote p{
-        font-size: 12px;
-    }
+
     /*foooter*/
     .caja-footer{
         width: 80%;
@@ -474,8 +470,56 @@ footer{
         text-align: center;
     }
     /*sobre mi*/
-
-
+    .seccion-sobremi{
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .con-txt-enlaces{
+        display: flex;
+        flex-direction: column;
+        align-items: none;
+        justify-content: none
+        /*background: green;*/
+    }
+    .con-txt-quijote{
+        align-items: normal;
+    }
+    .con-txt-quijote p{
+        font-size: 12px;
+    }
+    #texto-pelicula{
+        margin-top: 120px;
+    }
+    .con-txt-enlaces ul{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*background: gold;*/
+    }
+    .con-txt-enlaces ul li{
+        margin:10px 0;
+        width: 100%;
+        border-radius: 5px;
+        padding: 0;
+    }
+    .con-txt-enlaces ul li a p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .main-slider .item-slider{
+        width: calc(100%/3);
+        height: auto;
+        overflow: auto;
+    }
+    .con-txt-enlaces ul li a img{
+        width: 25%;
+        height: 85%;
+        margin:0 10px;
+    }
     /*foooter*/
     .caja-footer{
         width: 100%;
