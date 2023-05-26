@@ -1,0 +1,44 @@
+.estadisticas{
+    width: 74%;
+    margin: 60px auto;
+}
+.titulo-estadisticas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.titulo-estadisticas h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.main-estadisticas{
+    background: #0C101B;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    padding: 20px 0;
+}
+.main-estadisticas p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: white;
+    /*background: orange;*/
+    text-align: center;
+    font-size: 25px;
+}
+.top-lenguajes{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* background: green;*/
+}
+.top-lenguajes img{
+    margin: 0 20px;
+    box-shadow: 10px 10px 10px;
+}
