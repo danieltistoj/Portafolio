@@ -45,6 +45,11 @@
     place-content: center;
     box-shadow: 10px 10px 10px #0C101B;
 }
+.acordeon .titular:hover{
+    transform: scale(1.02);
+    transition: 400ms;
+    background: #0C101B;
+}
 .acordeon .contenido{
     background: #405A73;
     padding: 1em;
