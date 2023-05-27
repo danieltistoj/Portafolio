@@ -1,0 +1,24 @@
+#id-proyectos{
+    scroll-margin-top: 150px;
+}
+.proyectos{
+    width: 75%;
+    margin: 20px auto;
+    border: solid 1px black;
+    background: orange;
+}
+.proyectos .titulo-proyecto{
+    width: 50%;
+    margin: 0 auto;
+    background: green;
+    display: grid;
+    place-content: center;
+}
+.proyectos .titulo-proyecto h2{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.proyectos .area-proyectos{
+    
+}
