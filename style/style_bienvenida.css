@@ -46,6 +46,7 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 65px;
     }
     #id-img-bienvenida{
         margin: 0;
@@ -55,6 +56,7 @@ main{
 @media screen and (max-width:420px){
     .bienvenida{
         width: 100%;
+        margin-top: 20px;
     }
     #id-img-bienvenida{
         width: 332px;
