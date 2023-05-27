@@ -5,12 +5,12 @@
     width: 75%;
     margin: 20px auto;
     border: solid 1px black;
-    background: orange;
+    /*background: orange;*/
 }
 .proyectos .titulo-proyecto{
     width: 50%;
     margin: 0 auto;
-    background: green;
+    /*background: green;*/
     display: grid;
     place-content: center;
 }
@@ -19,6 +19,39 @@
     font-size: 45px;
     font-weight: bold;
 }
-.proyectos .area-proyectos{
-    
+.acordeon{
+    background: #0C101B;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px;
+    padding: 1.5em;
+}
+.acordeon .bloque{
+    background: #35506B;
+    border: solid 1px black;
+    margin: 0 0 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.acordeon .titular{
+    background: #405A73;
+    margin:  0 0 1em;
+    padding: 1em;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    box-shadow: 10px 10px 10px #0C101B;
+}
+.acordeon .contenido{
+    background: #405A73;
+    padding: 1em;
+    border-radius: 10px;
+    display: none;
+    transition: all 0.5s ease;
+}
+.acordeon .bloque.activo .contenido{
+    display: block;
 }
