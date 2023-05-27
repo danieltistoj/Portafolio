@@ -28,3 +28,19 @@ punto.forEach((cadaPunto,i)=>{
         punto[i].classList.add("activo")
     })
 })
+/*Codigo animacion acordeon */
+const bloque    = document.querySelectorAll(".bloque")
+const titular   = document.querySelectorAll(".titular")
+
+//Click en el titular
+    //quitar la clase activo de todos los bloques
+    //añadir la clase activo al bloque con la posicion titular que se le dio click
+
+titular.forEach((CadaTitular,i) =>{
+    titular[i].addEventListener("click",()=>{
+        bloque.forEach((CadaBloque,i)=>{
+            bloque[i].classList.remove("activo");
+        })
+        bloque[i].classList.add("activo");
+    })
+})
