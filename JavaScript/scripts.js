@@ -38,9 +38,16 @@ const titular   = document.querySelectorAll(".titular")
 
 titular.forEach((CadaTitular,i) =>{
     titular[i].addEventListener("click",()=>{
-        bloque.forEach((CadaBloque,i)=>{
+        //esta condicion es en dado caso quiera cerrar la pestaña que se abrio 
+        if(bloque[i].classList.contains("activo")){ // se verifica si el bloque ya tiene la clase
+            //si tiene la clase se lo quita 
             bloque[i].classList.remove("activo");
-        })
-        bloque[i].classList.add("activo");
+        }
+        else{
+            bloque.forEach((CadaBloque,i)=>{
+                bloque[i].classList.remove("activo");
+            })
+            bloque[i].classList.add("activo");
+        }
     })
 })
