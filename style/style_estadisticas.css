@@ -45,3 +45,44 @@
     margin: 0 20px;
     box-shadow: 10px 10px 10px;
 }
+@media screen and (max-width:1024px) {
+    .estadisticas{
+        width: 95%;
+        margin: 60px auto;
+    }
+    .top-lenguajes{
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background: green;*/
+    }
+    .top-lenguajes img{
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width:420px){
+    .main-estadisticas p{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .estadisticas{
+        width: 90%;
+        margin: 60px auto;
+    }
+    .top-lenguajes{
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background: green;*/
+    }
+    .top-lenguajes img{
+        width: 90%;
+        margin: 10px 10px;
+    }
+}
