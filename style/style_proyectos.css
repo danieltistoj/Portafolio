@@ -66,13 +66,22 @@
 .img-inicio{
     width: 90%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    /*background: orange;*/
 }
-
+.img-inicio .coleccion-iconos{
+    width: 50%;
+    height: 100%;
+    background: #0C101B;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
 .img-inicio .img-icono{
-    width: 15%;
-    margin: 0 35px;
+    width: 7em;
+    margin: 0 10px;
 }
 .img-repositorio{
     width: 100%;
