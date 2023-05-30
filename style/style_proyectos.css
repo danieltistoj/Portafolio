@@ -71,7 +71,6 @@
 }
 .img-inicio .coleccion-iconos{
     width: 50%;
-    height: 100%;
     background: #0C101B;
     display: flex;
     justify-content: center;
@@ -80,7 +79,7 @@
     box-shadow: 10px 10px 10px;
 }
 .img-inicio .img-icono{
-    width: 7em;
+    width: 8em;
     margin: 0 10px;
 }
 .img-repositorio{
