@@ -93,11 +93,14 @@
 }
 .img-final{
     width: 90%;
+    display: flex;
+    justify-content: center;
     /*background: orange;*/
 }
 .img-proyecto{
-    width: 100%;
+    width: 60%;
     margin: 20px auto;
+
 }
 .acordeon .bloque.activo .contenido p{
     width: 90%;
