@@ -114,6 +114,17 @@
     .proyectos{
         width: 95%;
     }
+    .img-inicio{
+        display: grid;
+        place-content: center;
+    }
+    .img-inicio .coleccion-iconos{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .img-final .img-proyecto{
+        width: 100%;
+    }
 }
 @media  screen and (max-width:420px){
     .proyectos{
