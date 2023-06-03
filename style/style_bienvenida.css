@@ -11,12 +11,13 @@ main{
     width: 75%;
     margin: 0 auto;
     /*background: orange;*/
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
 }
 #id-img-bienvenida{
-    width:  487px;
+    width: 35%;
     height: 374px;
-    margin: 74px 40px 0 0;
     border-radius: 20px;
     filter: drop-shadow(20px 20px 20px #0C101B);
 }
@@ -49,7 +50,7 @@ main{
         margin-top: 65px;
     }
     #id-img-bienvenida{
-        margin: 0;
+        width: 70%;
     } 
 }
 
@@ -59,8 +60,7 @@ main{
         margin-top: 20px;
     }
     #id-img-bienvenida{
-        width: 332px;
-        height: 279px;
+        width: 70%;
     }
     .text-bienvenida{
         /*background: gray;*/
