@@ -19,6 +19,7 @@ main{
     width: 35%;
     height: 374px;
     border-radius: 20px;
+    margin-top: 25px;
     filter: drop-shadow(20px 20px 20px #0C101B);
 }
 .text-bienvenida{
@@ -60,6 +61,7 @@ main{
     }
     #id-img-bienvenida{
         width: 70%;
+        margin-top: 0;
     }
     .text-bienvenida{
         /*background: gray;*/
