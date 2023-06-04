@@ -29,3 +29,9 @@
   <a   href="https://www.figma.com/file/rC9suz24LyfVHAW5o94onF/Portafolio?type=design&node-id=0%3A1&t=jKFxxFmp9pWKSCXl-1"><img  height="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></a>
  
  </div>
+ 
+  <div align="center" >
+ <h1>Demostración del programa</h1>
+ </div>
+ <div align ="center"><img height = "350em" src="https://github.com/danieltistoj/Encriptador/assets/42653664/5b58fd22-79bd-4f44-aea1-b5f59b58c87d"/></div>
+ 
