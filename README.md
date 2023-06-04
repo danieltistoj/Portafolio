@@ -31,6 +31,5 @@
   <div align="center" >
  <h1>Vista del proyecto</h1>
  </div>
- <div align ="center"><img height = "350em" src="https://github.com/danieltistoj/Portafolio/assets/42653664/1a8df0bb-2528-49b1-9637-7d1064369ce6"/></div>
-
+ <div align ="center"><img height = "350em" src="https://github.com/danieltistoj/Portafolio/assets/42653664/acfb9d7b-e093-47b8-82de-c14a353dbfa2"/></div>
 
