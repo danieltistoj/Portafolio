@@ -27,11 +27,10 @@
  <h1>Vistas del programa</h1>
   <p>Puedes visitar la primera version del proyecto en Figma</p>
   <a   href="https://www.figma.com/file/rC9suz24LyfVHAW5o94onF/Portafolio?type=design&node-id=0%3A1&t=jKFxxFmp9pWKSCXl-1"><img  height="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></a>
- 
  </div>
- 
   <div align="center" >
- <h1>Demostración del programa</h1>
+ <h1>Vista del proyecto</h1>
  </div>
- <div align ="center"><img height = "350em" src="https://github.com/danieltistoj/Encriptador/assets/42653664/5b58fd22-79bd-4f44-aea1-b5f59b58c87d"/></div>
- 
+ <div align ="center"><img height = "350em" src="https://github.com/danieltistoj/Portafolio/assets/42653664/1a8df0bb-2528-49b1-9637-7d1064369ce6"/></div>
+
+
