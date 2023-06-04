@@ -82,3 +82,26 @@
     transition: 400ms;
 }
 
+@media screen and (max-width:1024px) {
+    .seccion-contacto .formulario-contacto .coleccion-input-label{
+        display: block;
+        padding: 1em;
+        /*background: pink;*/
+    }
+    .seccion-contacto .formulario-contacto .coleccion-input-label .coleccion-label{
+        width: 100%;
+        /*background:gray;*/
+    }
+    .seccion-contacto .formulario-contacto .coleccion-input-label .text-area{
+        width: 100%;
+        display: grid;
+    }
+}
+@media screen and (max-width:420px){
+    .seccion-contacto{
+        width: 90%;
+    }
+    .seccion-contacto .formulario-contacto button{
+        width: 50%;
+    }
+}
