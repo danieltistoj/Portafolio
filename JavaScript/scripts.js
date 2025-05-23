@@ -1,5 +1,5 @@
 
-//inicio codigo
+//inicio codigo 2
 var divMenu = document.getElementById("id-contenedor-menu")
 divMenu.addEventListener("click", function(){
     console.log("menu clicked")
